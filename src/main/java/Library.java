@@ -12,7 +12,12 @@ public class Library {
 
     }
 
-    public int bookCount() { return this.stock.size(); }
+    public int bookCount() {
+        return this.stock.size();
+    }
 
 
+    public void addBook(Book book) {
+         this.stock.add(book);
+    }
 }
